@@ -176,12 +176,12 @@ pip freeze > requirements.txt
 **📊 Key Visualizations** - See IRT concepts in action:
 
 <div align="center">
-  <img src="docs/item_characteristic_curves.png" alt="Item Characteristic Curves" width="60%">
+  <img src="./figures/item_characteristic_curves.png" alt="Item Characteristic Curves" width="60%">
   <p><em>Item Characteristic Curves showing how difficulty, discrimination, and guessing parameters affect response probabilities</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/adaptive_testing_convergence.png" alt="Adaptive Testing Convergence" width="60%">
+  <img src="./figures/adaptive_testing_convergence.png" alt="Adaptive Testing Convergence" width="60%">
   <p><em>Adaptive testing simulation showing how ability estimates converge toward true ability</em></p>
 </div>
 
