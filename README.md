@@ -55,6 +55,11 @@ You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—t
 </div>
 &nbsp;
 
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-contact-information"><i><b>6. Contact Information</b></i></a>
+</div>
+&nbsp;
+
 
 ## 1. Quick Start
 
@@ -214,3 +219,7 @@ After exploring this repository, you should understand:
 ## 5. About This Project
 
 This repository provides a foundation for understanding the psychometric principles that underlie adaptive testing systems, enabling AI engineers to collaborate effectively with psychometricians in developing next-generation assessment platforms.
+
+## 6. Contact Information
+
+For questions not addressed in the resources above, please connect with [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/) on LinkedIn for personalized assistance.
