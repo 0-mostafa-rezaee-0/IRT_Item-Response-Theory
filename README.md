@@ -120,12 +120,10 @@ pip freeze > requirements.txt
 ### 3.1 Start with Multimedia Content
 
 **🎥 Video Presentation** - Watch the comprehensive overview:
-- [🎬 Interactive Video Player](docs/video-player.html) - Watch with custom player interface
-- [📁 Direct Video File](docs/IRT-Video-Presentation.mp4) - Download or stream directly
+- [📁 IRT Video Presentation](docs/IRT-Video-Presentation.mp4) - Complete introduction to IRT concepts
 
 **🎧 Audio Discussion** - Listen to expert insights:
-- [🎵 Interactive Audio Player](docs/audio-player.html) - Listen with custom player interface
-- [📁 Direct Audio File](docs/IRT-Audio-Conversation.m4a) - Download or stream directly
+- [📁 IRT Audio Conversation](docs/IRT-Audio-Conversation.m4a) - Deep dive into IRT applications
 
 **📚 Technical Documentation** - Read the detailed materials:
 - [IRT Conceptual Overview](docs/IRT-Conceptual-Overview.md) - Mathematical foundations
