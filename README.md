@@ -6,9 +6,9 @@ This will create your own copy of this project, which you can modify freely — 
 
 ---
 
-<!-- <div align="center">
-    <img src="figures/logo.png" alt="logo" width="50%">
-</div> -->
+<div align="center">
+    <img src="figures/banner.png" alt="banner" width="50%">
+</div>
 
 <h1 align="center">Item Response Theory (IRT)</h1>
 
