@@ -16,6 +16,51 @@ This will create your own copy of this project, which you can modify freely — 
 
 You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—these aren't just traditional exams, but sophisticated adaptive testing systems that dynamically adjust to your ability level, delivering precise measurements in half the time. This repository explores the mathematical foundation behind these systems: Item Response Theory (IRT), which models the relationship between your ability, question characteristics, and response probabilities. As the world moves toward AI-powered assessment, understanding IRT becomes crucial for building the next generation of intelligent testing systems that combine mathematical rigor with machine learning capabilities.
 
+---
+***Table of Contents***
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#-how-to-use-this-template"><i><b>🧰 How to Use This Template</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#1-quick-start"><i><b>1. Quick Start</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-prerequisites">1.1. Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-setup-and-run">1.2. Setup and Run</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-access-jupyter-in-browser">1.3. Access Jupyter in Browser</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-update-environment">1.4. Update Environment</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-repository-structure"><i><b>2. Repository Structure</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#3-learning-path"><i><b>3. Learning Path</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-start-with-multimedia-content">3.1. Start with Multimedia Content</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-visual-learning">3.3. Visual Learning</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#34-hands-on-exploration">3.4. Hands-On Exploration</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#4-key-takeaways"><i><b>4. Key Takeaways</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-about-this-project"><i><b>5. About This Project</b></i></a>
+</div>
+&nbsp;
+---
+
 ## 1. Quick Start
 
 ### 1.1 Prerequisites
