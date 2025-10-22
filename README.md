@@ -16,14 +16,9 @@ This will create your own copy of this project, which you can modify freely — 
 
 You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—these aren't just traditional exams, but sophisticated adaptive testing systems that dynamically adjust to your ability level, delivering precise measurements in half the time. This repository explores the mathematical foundation behind these systems: Item Response Theory (IRT), which models the relationship between your ability, question characteristics, and response probabilities. As the world moves toward AI-powered assessment, understanding IRT becomes crucial for building the next generation of intelligent testing systems that combine mathematical rigor with machine learning capabilities.
 
+
+*Table of Contents*
 ---
-***Table of Contents***
-
-<div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#-how-to-use-this-template"><i><b>🧰 How to Use This Template</b></i></a>
-</div>
-&nbsp;
-
 <details>
   <summary><a href="#1-quick-start"><i><b>1. Quick Start</b></i></a></summary>
   <div>
@@ -59,7 +54,7 @@ You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—t
   &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-about-this-project"><i><b>5. About This Project</b></i></a>
 </div>
 &nbsp;
----
+
 
 ## 1. Quick Start
 
