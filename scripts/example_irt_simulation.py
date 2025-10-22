@@ -75,8 +75,8 @@ def plot_item_characteristic_curves():
     import os
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    docs_dir = os.path.join(os.path.dirname(script_dir), "docs")
-    os.makedirs(docs_dir, exist_ok=True)
+    figures_dir = os.path.join(os.path.dirname(script_dir), "figures")
+    os.makedirs(figures_dir, exist_ok=True)
 
     theta_range = np.linspace(-4, 4, 100)
 
@@ -123,7 +123,7 @@ def plot_item_characteristic_curves():
     ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig(os.path.join(docs_dir, 'item_characteristic_curves.png'))
+    plt.savefig(os.path.join(figures_dir, 'item_characteristic_curves.png'))
     plt.close()
 
 def simulate_adaptive_test():
@@ -219,9 +219,9 @@ def simulate_adaptive_test():
     # Ensure the output directory exists
     import os
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    docs_dir = os.path.join(os.path.dirname(script_dir), "docs")
-    os.makedirs(docs_dir, exist_ok=True)
-    plt.savefig(os.path.join(docs_dir, 'adaptive_testing_convergence.png'))
+    figures_dir = os.path.join(os.path.dirname(script_dir), "figures")
+    os.makedirs(figures_dir, exist_ok=True)
+    plt.savefig(os.path.join(figures_dir, 'adaptive_testing_convergence.png'))
     plt.close()
 
     return results
@@ -230,7 +230,7 @@ def main():
     """Run IRT simulations and visualizations."""
     import os
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    docs_dir = os.path.join(os.path.dirname(script_dir), "docs")
+    figures_dir = os.path.join(os.path.dirname(script_dir), "figures")
     print("Running IRT simulation examples...")
 
     # 1. Plot item characteristic curves
@@ -243,7 +243,7 @@ def main():
     print("\nAdaptive Test Results:")
     print(results)
 
-    print(f"\nSimulation complete! Visualization images saved to '{docs_dir}'")
+    print(f"\nSimulation complete! Visualization images saved to '{figures_dir}'")
 
 if __name__ == "__main__":
     main()
