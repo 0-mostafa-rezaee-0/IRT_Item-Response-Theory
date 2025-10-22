@@ -51,12 +51,7 @@ You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—t
 &nbsp;
 
 <div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-about-this-project"><i><b>5. About This Project</b></i></a>
-</div>
-&nbsp;
-
-<div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-contact-information"><i><b>6. Contact Information</b></i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-contact-information"><i><b>5. Contact Information</b></i></a>
 </div>
 &nbsp;
 
@@ -216,10 +211,6 @@ After exploring this repository, you should understand:
 - The basic mathematics behind IRT probability functions
 - How to simulate responses based on IRT models
 
-## 5. About This Project
-
-This repository provides a foundation for understanding the psychometric principles that underlie adaptive testing systems, enabling AI engineers to collaborate effectively with psychometricians in developing next-generation assessment platforms.
-
-## 6. Contact Information
+## 5. Contact Information
 
 For questions not addressed in the resources above, please connect with [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/) on LinkedIn for personalized assistance.
