@@ -1,4 +1,4 @@
-<!-- ## 🧰 How to Use This Template    
+## 🧰 How to Use This Template    
 
 Click the green **"Use this template"** button at the top of the page, then choose **"Create a new repository"**.   
 
@@ -6,18 +6,11 @@ This will create your own copy of this project, which you can modify freely — 
 
 ---    
 
-<div align="center">
+<!-- <div align="center">
     <img src="figures/logo.png" alt="logo" width="50%">
 </div> -->
 
-#  IRT: Item Response Theory
-
-<!-- aaa -->
-
-## Table of Contents
-
-
-<h1 align="center">Item Response Theory (IRT) for AI Engineers</h1>
+<h1 align="center">Item Response Theory (IRT)</h1>
 
 <p align="center">A practical introduction to Item Response Theory for AI-based adaptive testing</p>
 
