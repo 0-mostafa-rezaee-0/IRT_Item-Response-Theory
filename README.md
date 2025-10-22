@@ -17,13 +17,13 @@ This will create your own copy of this project, which you can modify freely — 
 ## Table of Contents
 
 
-<h1 align="center">Understand Enough: Item Response Theory (IRT)</h1>
+<h1 align="center">Item Response Theory (IRT) for AI Engineers</h1>
 
-<p align="center">A practical introduction to Item Response Theory for AI-based adaptive testing at Pearson</p>
+<p align="center">A practical introduction to Item Response Theory for AI-based adaptive testing</p>
 
 ## 1. Project Overview
 
-This repository provides a concise, practical introduction to Item Response Theory (IRT) — the psychometric framework that powers modern adaptive tests like GRE, GMAT, and PTE. The goal is to help AI engineers and data scientists "understand enough" about IRT to work effectively on adaptive testing systems, without requiring an extensive background in psychometrics.
+This repository provides a concise, practical introduction to Item Response Theory (IRT) — the psychometric framework that powers modern adaptive tests like GRE, GMAT, and PTE. The goal is to help AI engineers and data scientists gain practical understanding of IRT to work effectively on adaptive testing systems, without requiring an extensive background in psychometrics.
 
 ## 2. Repository Structure
 
@@ -92,4 +92,4 @@ After exploring this repository, you should understand:
 
 ## 6. About This Project
 
-This repository was created for AI-based adaptive testing readiness at Pearson. It provides a foundation for understanding the psychometric principles that underlie adaptive testing systems, enabling AI engineers to collaborate effectively with psychometricians in developing next-generation assessment platforms.
+This repository provides a foundation for understanding the psychometric principles that underlie adaptive testing systems, enabling AI engineers to collaborate effectively with psychometricians in developing next-generation assessment platforms.

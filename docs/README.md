@@ -43,7 +43,7 @@
   <summary><a href="#6-practical-examples"><i><b>6. Practical Examples</b></i></a></summary>
   <div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#61-gre-ets">6.1. GRE (ETS)</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-pte-academic-pearson">6.2. PTE Academic (Pearson)</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-pte-academic">6.2. PTE Academic</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#63-gmat-gmac">6.3. GMAT (GMAC)</a><br>
   </div>
 </details>
@@ -180,7 +180,7 @@ Frames test administration as sequential decision-making: select next item to ma
 
 Uses **multi-stage adaptive** testing: first section at medium level; second section difficulty chosen via IRT-based ability estimate.
 
-## 6.2. PTE Academic (Pearson)
+## 6.2. PTE Academic
 
 Fully adaptive. Uses IRT to continuously adjust question difficulty and compute scaled scores, ensuring precision and fairness.
 
@@ -242,7 +242,7 @@ Fully item-level adaptive. Uses 3PL IRT; each response updates θ. "Which questi
 2. ETS & GMAC Technical Manuals on GRE/GMAT scoring.
 3. Yeung (2019). *Deep-IRT: Deep Learning Knowledge Tracing with Item Response Theory*.
 4. Zhang et al. (2022). *Neural Computerized Adaptive Testing (NCAT)*.
-5. Pearson Research (2024). *PTE Academic: Adaptive Testing Whitepaper*.
+5. PTE Academic Research (2024). *Adaptive Testing Whitepaper*.
 6. Py-IRT Documentation (2025).
 7. Chalmers (2012). *mirt: Multidimensional IRT in R*.
 8. OECD (2018). *PISA Database*.
