@@ -106,13 +106,13 @@ In the simplest case, an item’s **difficulty (b)** is the point where a test-t
 **1PL, 2PL, 3PL Models (Conceptually)**
 IRT models typically use logistic (S-shaped) functions to describe the probability that a person with ability θ answers item *i* correctly:
 
-[ P(\text{correct}|\theta) = f(\theta, a_i, b_i, c_i) ]
+$$P(\text{correct}|\theta) = f(\theta, a_i, b_i, c_i)$$
 
 ## 3.1. 1PL (Rasch Model)
 
 Only **difficulty (b)** varies between items. All items are equally discriminating, and guessing isn't modeled:
 
-[ P_i(\text{correct}|\theta) = \frac{1}{1+\exp[-(\theta - b_i)]} ]
+$$P_i(\text{correct}|\theta) = \frac{1}{1+\exp[-(\theta - b_i)]}$$
 
 ## 3.2. 2PL Model
 
@@ -122,7 +122,7 @@ Adds **discrimination (a)**, which controls slope steepness around difficulty po
 
 Adds **guessing (c)**, a lower bound for the curve (e.g., 0.25 in 4-option MCQs):
 
-[ P_i(\text{correct}|\theta) = c_i + (1-c_i)\frac{1}{1+\exp[-a_i(\theta - b_i)]} ]
+$$P_i(\text{correct}|\theta) = c_i + (1-c_i)\frac{1}{1+\exp[-a_i(\theta - b_i)]}$$
 
 In short:
 
