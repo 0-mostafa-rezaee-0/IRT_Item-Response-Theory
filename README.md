@@ -99,11 +99,7 @@ To update dependencies:
 pip freeze > requirements.txt
 ```
 
-## 2. Project Overview
-
-This repository provides a concise, practical introduction to Item Response Theory (IRT) — the psychometric framework that powers modern adaptive tests like GRE, GMAT, and PTE. The goal is to help AI engineers and data scientists gain practical understanding of IRT to work effectively on adaptive testing systems, without requiring an extensive background in psychometrics.
-
-## 3. Repository Structure
+## 2. Repository Structure
 
 ```
 .
@@ -119,7 +115,7 @@ This repository provides a concise, practical introduction to Item Response Theo
 └── README.md                # This file
 ```
 
-## 4. Learning Path
+## 3. Learning Path
 
 To get the most from this repository:
 
@@ -129,7 +125,7 @@ To get the most from this repository:
 4. Explore the code in `scripts/example_irt_simulation.py` to see IRT in action
 5. Experiment by modifying parameters and observing the effects
 
-## 5. Key Takeaways
+## 4. Key Takeaways
 
 After exploring this repository, you should understand:
 
@@ -139,6 +135,6 @@ After exploring this repository, you should understand:
 - The basic mathematics behind IRT probability functions
 - How to simulate responses based on IRT models
 
-## 6. About This Project
+## 5. About This Project
 
 This repository provides a foundation for understanding the psychometric principles that underlie adaptive testing systems, enabling AI engineers to collaborate effectively with psychometricians in developing next-generation assessment platforms.
