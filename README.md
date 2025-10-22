@@ -14,11 +14,96 @@ This will create your own copy of this project, which you can modify freely — 
 
 <p align="center">A practical introduction to Item Response Theory for AI-based adaptive testing</p>
 
-## 1. Project Overview
+You've likely encountered standardized tests like GRE, GMAT, TOEFL, or IELTS—these aren't just traditional exams, but sophisticated adaptive testing systems that dynamically adjust to your ability level, delivering precise measurements in half the time. This repository explores the mathematical foundation behind these systems: Item Response Theory (IRT), which models the relationship between your ability, question characteristics, and response probabilities. As the world moves toward AI-powered assessment, understanding IRT becomes crucial for building the next generation of intelligent testing systems that combine mathematical rigor with machine learning capabilities.
+
+## 1. Quick Start
+
+### 1.1 Prerequisites
+- Docker and Docker Compose installed on your system
+- VS Code with Dev Containers extension
+
+### 1.2 Setup and Run
+
+**Step 1: Clone and Navigate**
+```bash
+git clone <repository-url>
+cd IRT_Item-Response-Theory
+```
+
+**Step 2: Build and Run Container**
+```bash
+# Make start.sh executable (if not already)
+chmod +x start.sh
+
+# Build and run the container
+./start.sh
+```
+
+**Alternative method:**
+```bash
+docker-compose up --build -d
+```
+
+**Step 3: Verify Container**
+```bash
+docker-compose ps
+```
+Ensure the container status is "Up" and port 8888 is mapped.
+
+**Step 4: Run Python Scripts**
+
+```bash
+# First, find your container name
+docker-compose ps
+
+# Enter the container and navigate to scripts directory
+docker exec -it <container_name> bash
+cd /app/scripts
+
+# Run scripts one by one
+python generate_irt_data.py
+python example_irt_simulation.py
+```
+
+**Step 5: Work with Jupyter Notebooks**
+
+1. **Attach VS Code to Container:**
+   - Press `Ctrl+Shift+P` to open command palette
+   - Select `Dev Containers: Attach to Running Container…`
+   - Choose your project container
+   - In the new VS Code window, click "Open Folder" → select `/root/app`
+   - Install extensions: Docker, Dev Containers, Python, and Jupyter
+
+2. **Select Kernel and Run Notebooks:**
+   - Open `notebooks/1_IRT_Data_Generator.ipynb` or `notebooks/2_IRT_Exploratory_Analysis.ipynb`
+   - Select the correct kernel (should auto-detect)
+   - Start exploring IRT concepts by running cells!
+
+**Step 6: Stop Container**
+```bash
+docker-compose down
+```
+
+### 1.3 Access Jupyter in Browser
+Visit `localhost:8888/tree` to access Jupyter interface directly.
+
+### 1.4 Update Environment
+To rebuild with changes:
+```bash
+docker-compose up --build
+```
+
+To update dependencies:
+```bash
+# Inside container
+pip freeze > requirements.txt
+```
+
+## 2. Project Overview
 
 This repository provides a concise, practical introduction to Item Response Theory (IRT) — the psychometric framework that powers modern adaptive tests like GRE, GMAT, and PTE. The goal is to help AI engineers and data scientists gain practical understanding of IRT to work effectively on adaptive testing systems, without requiring an extensive background in psychometrics.
 
-## 2. Repository Structure
+## 3. Repository Structure
 
 ```
 .
@@ -33,35 +118,6 @@ This repository provides a concise, practical introduction to Item Response Theo
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
 ```
-
-## 3. Quick Start
-
-### 3.1 Setup
-
-1. Clone this repository
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-### 3.2 Generate Data
-
-```
-python scripts/generate_irt_data.py
-```
-
-This will create synthetic IRT data files in the `data/` directory.
-
-### 3.3 Run IRT Simulation
-
-```
-python scripts/example_irt_simulation.py
-```
-
-This will:
-1. Generate visualizations of Item Characteristic Curves
-2. Simulate an adaptive test
-3. Save output images to the `docs/` directory
 
 ## 4. Learning Path
 
