@@ -117,6 +117,8 @@ pip freeze > requirements.txt
 
 ## 3. Learning Path
 
+> **📁 All multimedia content is available in the `docs/` folder. You can browse the files directly or use the links below to access them.**
+
 ### 3.1 Start with Multimedia Content
 
 **🎥 Video Presentation** - Watch the comprehensive overview:
