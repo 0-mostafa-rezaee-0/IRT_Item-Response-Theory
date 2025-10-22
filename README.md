@@ -117,13 +117,47 @@ pip freeze > requirements.txt
 
 ## 3. Learning Path
 
-To get the most from this repository:
+### 3.1 Start with Multimedia Content
 
-1. Start by reading `docs/README.md` for a conceptual overview of IRT
-2. Examine the data structure described in `data/README.md`
-3. Run the example scripts and review their output
-4. Explore the code in `scripts/example_irt_simulation.py` to see IRT in action
-5. Experiment by modifying parameters and observing the effects
+**🎥 Video Presentation** - Watch the comprehensive overview:
+- [IRT Video Presentation](docs/IRT-Video-Presentation.mp4) - Complete introduction to IRT concepts
+
+**🎧 Audio Discussion** - Listen to expert insights:
+- [IRT Audio Conversation](docs/IRT-Audio-Conversation.m4a) - Deep dive into IRT applications
+
+**📚 Technical Documentation** - Read the detailed materials:
+- [IRT Conceptual Overview](docs/IRT-Conceptual-Overview.md) - Mathematical foundations
+- [IRT Technical Notes](docs/IRT-Technical-Notes.pdf) - Advanced psychometric theory
+
+### 3.3 Visual Learning
+
+**📊 Key Visualizations** - See IRT concepts in action:
+
+<div align="center">
+  <img src="docs/item_characteristic_curves.png" alt="Item Characteristic Curves" width="60%">
+  <p><em>Item Characteristic Curves showing how difficulty, discrimination, and guessing parameters affect response probabilities</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/adaptive_testing_convergence.png" alt="Adaptive Testing Convergence" width="60%">
+  <p><em>Adaptive testing simulation showing how ability estimates converge toward true ability</em></p>
+</div>
+
+### 3.4 Hands-On Exploration
+
+**Step 1: Conceptual Foundation**
+- Read `docs/README.md` for a structured overview of IRT
+- Examine the data structure described in `data/README.md`
+
+**Step 2: Interactive Learning**
+- Run the example scripts and review their output
+- Explore the code in `scripts/example_irt_simulation.py` to see IRT in action
+- Experiment by modifying parameters and observing the effects
+
+**Step 3: Advanced Analysis**
+- Work through the Jupyter notebooks for comprehensive analysis
+- Generate your own IRT datasets and visualizations
+- Apply IRT concepts to your own research questions
 
 ## 4. Key Takeaways
 
